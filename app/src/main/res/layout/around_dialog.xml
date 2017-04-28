@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/month_view_bar_weekday">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/around"
+    android:textColor="@color/input_lable"
+    android:textSize="24sp"
+    android:background="@drawable/abc_textfield_activated_mtrl_alpha"
+    android:gravity="center"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="选择地点："
+            android:textColor="@color/input_lable"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText2_around"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:gravity="center">
+        <TextView
+            android:id="@+id/dingwei_around"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/dingwei" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/aroundradius"
+            android:textColor="@color/input_lable"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText_around"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="@string/meter"
+            android:textSize="20sp"
+            android:textColor="@color/input_lable"
+            android:gravity="center"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:text="@string/aroundagency"
+        android:textColor="@color/input_lable"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        android:id="@+id/spinner_around"
+        ></Spinner>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/cancel"
+        android:id="@+id/button1_around"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/sure"
+        android:id="@+id/button2_around"
+        android:textSize="20sp"/>
+</LinearLayout>
+</LinearLayout>

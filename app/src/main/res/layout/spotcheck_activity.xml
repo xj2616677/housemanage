@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/backgray"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_spot_taskfrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/white"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:id="@+id/text_spot_taskfrom"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="@string/taskfrom"
+            android:textSize="20sp"
+            />
+        <RadioGroup
+            android:id="@+id/rg_spot_taskfrom"
+            android:layout_toRightOf="@id/text_spot_taskfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignTop="@+id/text_spot_taskfrom"
+            android:layout_marginLeft="20dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_taskfrom_todaypatrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/todaypatrol"
+                />
+            <RadioButton
+                android:id="@+id/rb_taskfrom_specialcheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="@string/specialcheck"
+                />
+            <RadioButton
+                android:id="@+id/rb_taskfrom_comprecheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="@string/comprehensivecheck"
+                />
+            <RadioButton
+                android:id="@+id/rb_taskfrom_checktask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="@string/checktask"
+                />
+            <RadioButton
+                android:id="@+id/rb_taskfrom_petitionletter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="@string/petitionletter"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_taskfrom_consultcomplain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="@string/consultcomplain"
+                />
+            <RadioButton
+                android:id="@+id/rb_taskfrom_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="@string/other"
+                />
+        </RadioGroup>
+        <!--<HorizontalScrollView-->
+        <!--android:id="@+id/hsv"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="40dp"-->
+
+        <!--android:scrollbars="none"-->
+        <!-->-->
+        <TextView
+            android:id="@+id/text_comprecheck_value"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/rg_spot_taskfrom"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:hint="请点击选择综合执法检查的部门"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:scrollbars="vertical"
+            android:background="@drawable/layout_shape"
+            android:visibility="invisible"
+            />
+        <!--</HorizontalScrollView>-->
+
+        <Spinner
+            android:layout_below="@+id/text_comprecheck_value"
+            android:id="@+id/spinner_taskfrom_checktask"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rg_spot_taskfrom"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            ></Spinner>
+        <EditText
+            android:id="@+id/edit_taskfrom_petitionletter"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rg_spot_taskfrom"
+            android:layout_below="@+id/spinner_taskfrom_checktask"
+            android:singleLine="true"
+            android:hint="@string/petitionlettercode"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            />
+        <EditText
+            android:id="@+id/edit_taskfrom_consultcomplain"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rg_spot_taskfrom"
+            android:layout_below="@+id/edit_taskfrom_petitionletter"
+            android:singleLine="true"
+            android:hint="@string/consultcomplaincode"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            />
+        <EditText
+            android:id="@+id/edit_taskfrom_other"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rg_spot_taskfrom"
+            android:layout_below="@+id/edit_taskfrom_consultcomplain"
+            android:singleLine="true"
+            android:hint="@string/otherfrom"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel_spot_enforcelawtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_spot_taskfrom"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:id="@+id/text_spot_enforcelawtype"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="@string/enforcelawtype"
+            android:textSize="20sp"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/rel_spot_housechoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text_spot_enforcelawtype"
+            android:layout_alignBottom="@id/text_spot_enforcelawtype"
+            android:layout_toRightOf="@id/text_spot_enforcelawtype"
+            android:layout_marginLeft="20dp"
+            >
+
+            <CheckBox
+                android:id="@+id/cb_spot_primebroker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/primebroker"
+                android:textSize="20sp"
+                />
+            <CheckBox
+                android:id="@+id/cb_spot_propertymanage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/propertymanage"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/cb_spot_primebroker"
+                android:textSize="20sp"
+                />
+            <CheckBox
+                android:id="@+id/cb_spot_generalbasement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/generalbasement"
+                android:layout_toRightOf="@id/cb_spot_propertymanage"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                />
+            <CheckBox
+                android:id="@+id/cb_spot_housesafeuse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/housesafeuse"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/cb_spot_generalbasement"
+                android:layout_marginLeft="20dp"
+                />
+
+            <CheckBox
+                android:id="@+id/cb_spot_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/other"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/cb_spot_housesafeuse"
+                android:layout_marginLeft="20dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/rel_spot_enforcelawtype"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:padding="20dp"
+        >
+        <TextView
+            android:id="@+id/text_spot_street"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="@string/street"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+
+        <Spinner
+            android:layout_marginLeft="20dp"
+            android:id="@+id/spinner_spot_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+        <LinearLayout
+            android:id="@+id/lin_spot_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:id="@+id/edit_spot_content"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:background="@drawable/layout_shape"
+                />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:id="@+id/bt_spot_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="全区搜索"
+                />
+            <TextView
+                android:id="@+id/text_spot_insertobject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:text="新增"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/blue"
+                android:background="@drawable/text_color_selector"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rel_spot_checkobject"
+        android:layout_below="@+id/lin_street"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ListView
+            android:id="@+id/list_spot_checkobject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            ></ListView>
+
+        <RelativeLayout
+            android:id="@+id/rel_spot_objectname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:padding="20dp"
+            >
+            <TextView
+                android:id="@+id/text_spot_objectname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检查地址:"
+                android:textSize="20sp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+            <EditText
+
+                android:id="@+id/edit_spot_objectname"
+                android:layout_toRightOf="@+id/text_spot_objectname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="请输入被检对象地址"
+                android:singleLine="true"
+                android:background="@drawable/layout_shape"
+                />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

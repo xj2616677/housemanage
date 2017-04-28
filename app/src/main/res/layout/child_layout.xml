@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:layout_marginLeft="70dp"
+        android:id="@+id/chbChild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false" />
+    <TextView
+        android:id="@+id/tvChild"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="45dp"
+        android:textSize="17dip"
+        android:textStyle="bold" >
+    </TextView>
+
+</LinearLayout>

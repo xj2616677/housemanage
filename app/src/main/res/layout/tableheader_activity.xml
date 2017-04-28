@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgray"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_marginTop="12dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/moudechoose"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    />
+                <Spinner
+                    android:id="@+id/sp_tablehead_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    ></Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_header_content"
+                android:orientation="vertical"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/rg_header_type"
+                android:orientation="horizontal"
+                ></RadioGroup>
+            <LinearLayout
+                android:id="@+id/lin_radioline"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_tablehead_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="下一步"
+                android:background="@drawable/text_color_selectorright"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

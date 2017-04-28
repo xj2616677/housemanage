@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/rg_check_issh"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/button1_check"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wshjl"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/inputradiobutton_selector"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/button2_check"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yshjl"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/inputradiobutton_selector"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/button3_check"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputradiobutton_selector"
+            android:layout_weight="1"
+            android:text="本地暂存"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+    </RadioGroup>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/text_recordline1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/titleback"
+            />
+        <TextView
+            android:id="@+id/text_recordline2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/lightgray"
+            />
+        <TextView
+            android:id="@+id/text_recordline3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/lightgray"
+            />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame_record"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+</LinearLayout>

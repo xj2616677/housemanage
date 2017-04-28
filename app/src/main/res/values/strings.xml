@@ -1,0 +1,686 @@
+<resources>
+    <string name="app_name">海淀区房屋管理局综合业务检查执法系统</string>
+    <string name="action_settings">Settings</string>
+
+    <array name="grid_name">
+        <item name = "spotcheck">现场检查</item>
+        <item name = "checklist">检查列表</item>
+        <item name = "map">地图应用</item>
+        <item name = "history">历史追踪</item>
+        <item name = "statisticanaly">统计分析</item>
+        <item name = "versionupdate">版本更新</item>
+    </array>
+
+    <string name="checktype">检查类型:</string>
+    <string name="todaypatrol">日常巡查</string>
+    <string name="specialcheck">专项检查</string>
+    <string name="comprehensivecheck">综合执法检查</string>
+    <string name="other">其他</string>
+
+    <string name="taskfrom">任务来源:</string>
+    <string name="checktask">检查任务</string>
+    <string name="petitionletter">信访</string>
+    <string name="consultcomplain">咨询投诉平台</string>
+
+    <string name="checkedobject">被检查对象类型:</string>
+    <string name="house">房屋</string>
+    <string name="enterprise">企业</string>
+
+    <string name="enforcelawtype">业务类型:</string>
+    <string name="propertymanage">物业管理</string>
+    <string name="generalbasement">普通地下室</string>
+    <string name="housesafeuse">房屋安全</string>
+    <string name="primebroker">经纪机构</string>
+
+    <string name="moudechoose">模板选择:</string>
+    <string name="petitionlettercode">请录入信访编号</string>
+    <string name="consultcomplaincode">请录入案件编号</string>
+    <string name="otherfrom">请录入任务来源</string>
+
+    <string name="checkobject">检查对象</string>
+    <string name="checkobjectchoose">检查对象选择</string>
+    <string name="search">搜索</string>
+    <string name="searchhint">请输入要搜索的机构名称或地址</string>
+    <string name="searchhint_checkterm">请输入要搜索的检查项</string>
+    <string name="censor">检查人：</string>
+    <string name="starttime">开始时间：</string>
+    <string name="endtime">结束时间：</string>
+    <string name="hint1">请输入检查人姓名或编号</string>
+    <string name="hint2">开始时间</string>
+    <string name="hint3">结束时间</string>
+
+    <string name="allchoose"><u>全选</u></string>
+    <string name="allnochoose"><u>全不选</u></string>
+    <string name="oppositechoose"><u>反选</u></string>
+
+
+    <string name="writeresult"><u>直接填写结论</u></string>
+
+    <string name="tableheader">表头选择</string>
+
+    <string name="checktablelist">检查表单</string>
+    <string name="checkresult">检查结论</string>
+    <string name="chectermk">检查项</string>
+
+    <array name="primebrokerheader">
+        <item>经纪机构名称</item>
+        <item>营业执照号</item>
+        <item>社会信用信息代码</item>
+        <item>注册时间</item>
+        <item>注册资本</item>
+        <item>注册地址</item>
+        <item>办公地址</item>
+        <item>备案证明号</item>
+        <item>初始备案时间</item>
+        <item>法定代表人</item>
+        <item>法定代表人电话</item>
+        <item>联系人</item>
+        <item>联系人电话</item>
+    </array>
+    <array name="propertymanageheader">
+        <item>小区名称</item>
+        <item>项目名称</item>
+        <item>项目地址</item>
+        <item>管理单位</item>
+        <item>接管时间</item>
+        <item>负责人</item>
+        <item>负责人电话</item>
+        <item>总建筑面积</item>
+        <item>房屋总套数</item>
+        <item>投入使用时间</item>
+        <item>物业服务费</item>
+        <item>物业服务类型</item>
+        <item>是否有业委会</item>
+        <item>是否加入海淀区物业协会</item>
+        <item>是否加入海淀区物业工会联合会</item>
+    </array>
+    <array name="generalbasementheader">
+        <item>街镇</item>
+        <item>坐落地址</item>
+        <item>备案情况</item>
+        <item>总层数</item>
+        <item>所在层数</item>
+        <item>建筑面积</item>
+        <item>规划用途</item>
+        <item>实际用途</item>
+        <item>产权方</item>
+        <item>产权方联系电话</item>
+        <item>管理方</item>
+        <item>管理方联系电话</item>
+    </array>
+    <array name="housesafeuseheader">
+        <item>房屋名称</item>
+        <item>竣工日期</item>
+        <item>坐落地址</item>
+        <item>房屋建筑面积</item>
+        <item>产权方</item>
+        <item>产权方联系电话</item>
+        <item>房屋用途</item>
+        <item>管理方</item>
+        <item>管理方负责人</item>
+        <item>管理方联系电话</item>
+    </array>
+    <string name="around">周边选项</string>
+    <string name="aroundradius">周边范围半径:</string>
+    <string name="meter">米</string>
+    <string name="aroundagency">周边机构:</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+
+    <string name="economy">经济机构</string>
+    <string name="property">物业企业</string>
+    <string name="propertyoobj">物业项目</string>
+    <string name="basement">普通地下室</string>
+    <string name="safe">房屋安全</string>
+
+    <string name="trackcensor">跟踪检查人</string>
+    <string name="trackobj">跟踪受检对象</string>
+
+    <string name="searchcensor">搜索巡查员</string>
+    <string name="list">列表</string>
+    <string name="historylocation">历史位置</string>
+    <string name="details">详细资料</string>
+
+    <string name="trackobject">追踪对象选定</string>
+    <string name="historyinfo">历史信息</string>
+    <string name="detaiinfo">详细信息</string>
+    <string name="baseinfo">基本信息</string>
+
+    <string name="ywlx">业务类型：</string>
+    <string name="jcdx">检查对象：</string>
+    <string name="jcr">检查人：</string>
+
+    <string name="ycjl">已传记录</string>
+    <string name="bdjl">本地记录</string>
+    <string name="jgdz">地址:</string>
+    <string name="ssrw">任务来源:</string>
+    <string name="rwlx">业务类型:</string>
+    <string name="jcrq">检查日期:</string>
+
+    <string name="sjjgmc">收件机构名称:</string>
+    <string name="zcdz">注册地址:</string>
+    <string name="yyzzh">营业执照号:</string>
+    <string name="bazmbh">备案证明编号:</string>
+    <string name="fzr">负责人:</string>
+
+    <string name="jjjgmc">经纪机构名称</string>
+    <string name="yyzzh2">营业执照号</string>
+    <string name="shxyxxdm">社会信用信息代码</string>
+    <string name="zcsj">注册时间</string>
+    <string name="zczb">注册资本</string>
+    <string name="zcdz2">注册地址</string>
+    <string name="bgdz">办公地址</string>
+    <string name="bazmh">备案证明号</string>
+    <string name="csbasj">初始备案时间</string>
+    <string name="fddbr">法定代表人</string>
+    <string name="lxr">联系人</string>
+    <string name="writeobject">填写对象</string>
+    <string name="info">详细信息</string>
+
+    <string name="delete"><u>删除</u></string>
+    <string name="name">名称：</string>
+    <string name="address">业务类型：</string>
+    <string name="kxq">查看详情</string>
+    <string name="ckls">查看历史</string>
+    <string name="xzjc">现在检查</string>
+
+    <string name="wwfwg">未发现违法违规行为</string>
+    <string name="wfwg">发现违法违规行为</string>
+
+
+    <string name="xczg">现场整改</string>
+    <string name="zlzg">责令整改</string>
+    <string name="xqzg">限期整改</string>
+    <string name="jg">警告</string>
+    <string name="fk">罚款</string>
+    <string name="zltczg">责令停产整改</string>
+    <string name="insertperson"><u>添加</u></string>
+
+    <string name="jcjl">检查记录</string>
+    <string name="wshjl">待上传市系统</string>
+    <string name="yshjl">已上传市系统</string>
+    <string name="wscjl">本地记录</string>
+
+
+    <string name="noproblem">未发现违法违规行为或依法不予行政处罚</string>
+    <string name="zlgz">责令改正</string>
+    <string name="jyxzcf">简易行政处罚</string>
+    <string name="ybxzcf">一般行政处罚</string>
+
+
+    <!--机构类别-->
+    <!--经纪机构名称-->
+    <!--注册地址-->
+    <!--营业执照号-->
+    <!--备案证明号-->
+    <!--负责人-->
+    <!--负责人电话-->
+    <!--负责人手机-->
+    <!--经理-->
+    <!--经理固定电话-->
+    <!--经理手机-->
+
+
+
+    <array name="primeinfoname">
+        <item >机构类别</item>
+        <item >经纪机构名称</item>
+        <item >注册地址</item>
+        <item >营业执照号</item>
+        <item >备案证明号</item>
+        <item >机构法人/负责人</item>
+        <item >机构法人/负责人电话</item>
+        <item >负责人手机</item>
+        <item >经理</item>
+        <item >经理固定电话</item>
+        <item >经理手机</item>
+        <item >联系电话</item>
+    </array>
+
+    <array name="primeinfokey">
+        <item >JGTYPE</item>
+        <item >ORGNAME</item>
+        <item >ADDR_REGISTER</item>
+        <item >ZZID</item>
+        <item >BAZMID</item>
+        <item >ORG_FZR</item>
+        <item >FZR_TEL</item>
+        <item >FZR_PHONENO</item>
+        <item >MANAGER_NAME</item>
+        <item >MANAGER_TEL</item>
+        <item >MANAGER_PHONENO</item>
+        <item >Lianxi_TEL</item>
+
+    </array>
+
+
+    <array name="insertprimeinfoname">
+        <item >经纪机构名称</item>
+        <item >注册地址</item>
+        <item >营业执照号</item>
+        <item >备案证明号</item>
+        <item >机构法人/负责人</item>
+        <item >机构法人/负责人电话</item>
+        <item >负责人手机</item>
+        <item >经理</item>
+        <item >经理固定电话</item>
+        <item >经理手机</item>
+        <item >联系电话</item>
+    </array>
+
+    <array name="insertprimeinfokey">
+        <item >ORGNAME</item>
+        <item >ADDR_REGISTER</item>
+        <item >ZZID</item>
+        <item >BAZMID</item>
+        <item >ORG_FZR</item>
+        <item >FZR_TEL</item>
+        <item >FZR_PHONENO</item>
+        <item >MANAGER_NAME</item>
+        <item >MANAGER_TEL</item>
+        <item >MANAGER_PHONENO</item>
+        <item >Lianxi_TEL</item>
+
+    </array>
+
+    <!--ENGNAME:项目名称,-->
+    <!--ENGADDR:项目地址,-->
+    <!--ORGNAME:管理方,-->
+    <!--ENGMAN:项目负责人,-->
+    <!--ENGMANMOBILE:项目负责人联系电话,-->
+    <!--ENGSCALE:建筑面积(平方米)-->
+    <!--ENGROOMCOUNT:总套数-->
+    <!--ENGROOMDATE:投入使用时间-->
+
+    <!--ENGNAME-->
+    <!--ENGADDR-->
+    <!--ORGNAME-->
+    <!--ENGMAN-->
+    <!--ENGMANMOBILE-->
+    <!--ENGSCALE-->
+    <!--ENGROOMCOUNT-->
+    <!--ENGROOMDATE-->
+
+    <array name="propertyinfokey">
+        <item>ENGNAME</item>
+        <item>ENGADDR</item>
+        <item>ORGNAME</item>
+        <item>ENGMAN</item>
+        <item>ENGMANMOBILE</item>
+        <item>ENGSCALE</item>
+        <item>ENGROOMCOUNT</item>
+        <item>ENGROOMDATE</item>
+        <item>RightUnit</item>
+        <item>EngLXR</item>
+        <item>EngLXRPhone</item>
+        <item>engtype2</item>
+    </array>
+
+    <!--"RPOWYID": "773",//物业项目ID-->
+    <!--"ENGNAME": "国兴家园",//物业项目名称-->
+    <!--"ENGADDR": "北京市海淀区首体南路20号",//物业项目地址-->
+    <!--"ORGNAME": "北京国兴三吉利物业管理有限责任公司",//管理方-->
+    <!--"ENGMAN": "陈红顺",//项目负责人-->
+    <!--"ENGMANMOBILE": "13701331782",//项目负责人电话-->
+    <!--"ENGSCALE": "133400.00平方米",//建筑面积-->
+    <!--"ENGROOMCOUNT": "908",//总套数-->
+    <!--"ENGROOMDATE": "2000/12/1 0:00:00",//入驻时间-->
+    <!--"RightUnit": "",//产权方-->
+    <!--"EngLXR": "",//项目联系人-->
+    <!--"EngLXRPhone": "",//联系人电话-->
+    <!--"engtype2": "居住类"//项目类型-->
+
+    <array name="propertyinfoname">
+        <item>项目名称</item>
+        <item>项目地址</item>
+        <item>管理方</item>
+        <item>项目负责人</item>
+        <item>项目负责人电话</item>
+        <item>总建筑面积</item>
+        <item>房屋总套数</item>
+        <item>投入使用时间</item>
+        <item>产权方</item>
+        <item>联系人</item>
+        <item>联系电话</item>
+        <item>项目类型</item>
+
+    </array>
+
+
+    <!--"houseLocate":"海淀区青云北区15号楼",房屋坐落-->
+    <!--"buildingName":"青云北区15号楼", 楼栋名称-->
+    <!--"basementAddress":"海淀区青云北区15号楼地下一层", 地下室地址-->
+    <!--"buildingArea":"", 建筑面积-->
+    <!--"currentLayer":"", 所在层数-->
+    <!--"planPurpose":"", 规划用途-->
+    <!--"actualPurpose":"",实际用途-->
+    <!--"management":"物业企业11", 管理方-->
+    <!--"propertyPerson":"", 产权方-->
+    <!--"tel":"", 联系电话-->
+    <!--"mobile":""联系手机-->
+
+
+    <!--projectName-->
+    <!--buildingName-->
+    <!--houseLocate-->
+    <!--basementAddress-->
+    <!--currentLayer-->
+    <!--propertyNum-->
+    <!--STREET_NAME-->
+    <!--buildingArea-->
+    <!--planPurpose-->
+    <!--actualPurpose-->
+    <!--propertyPerson-->
+    <!--management-->
+    <!--tel-->
+    <!--mobile-->
+
+    <array name="generalinfokey">
+        <item>projectName</item>
+        <item>buildingName</item>
+        <item>houseLocate</item>
+        <item>basementAddress</item>
+        <item>currentLayer</item>
+        <item>propertyNum</item>
+        <item>STREET_NAME</item>
+        <item>buildingArea</item>
+        <item>planPurpose</item>
+        <item>actualPurpose</item>
+        <item>propertyPerson</item>
+        <item>management</item>
+        <item>tel</item>
+        <item>mobile</item>
+    </array>
+
+
+    <array name="generalinfoname">
+        <item>项目名称</item>
+        <item>楼栋名称</item>
+        <item>房屋坐落</item>
+        <item>地下室地址</item>
+        <item>所在层数</item>
+        <item>产权证号</item>
+        <item>街镇</item>
+        <item>建筑面积</item>
+        <item>规划用途</item>
+        <item>实际用途</item>
+        <item>产权方</item>
+        <item>管理方</item>
+        <item>固定电话</item>
+        <item>手机号码</item>
+    </array>
+
+    <!--"HouseName":"", 房屋名称-->
+    <!--"houseLocate":"海淀区交大东路60号院舒至嘉园2号楼", 房屋坐落地址-->
+    <!--"BuildArea":"", 建筑面积-->
+    <!--"CompleteTime":"", 建成时间-->
+    <!--"structureType":"", 建筑结构-->
+    <!--"planPurpose":"", 规划用途-->
+    <!--"actualPurpose":"住宅", 实际用途-->
+    <!--"propertyPerson":"", 产权方-->
+    <!--"management":"", 管理方-->
+    <!--"tel":"", 联系电话-->
+    <!--"mobile":"", 联系手机-->
+    <!--"PerInCharge":"" 管理方负责人-->
+
+
+
+    <array name="houseinfokey">
+        <item>HouseName</item>
+        <item>CompleteTime</item>
+        <item>houseLocate</item>
+        <item>BuildArea</item>
+        <item>propertyPerson</item>
+        <item>planPurpose</item>
+        <item>actualPurpose</item>
+        <item>management</item>
+        <item>structureType</item>
+    </array>
+
+    <array name="houseinfoname">
+        <item>房屋名称</item>
+        <item>竣工日期</item>
+        <item>坐落地址</item>
+        <item>建筑面积</item>
+        <item>产权方</item>
+        <item>规划用途</item>
+        <item>实际用途</item>
+        <item>管理方</item>
+        <item>房屋结构</item>
+    </array>
+
+    <array name="addhouseinfokey">
+        <item>BUILD_NAME</item>
+        <item>BUILD_SITE</item>
+        <item>HOUSETOTALAREA</item>//面积
+        <item>ENDBUILDDATE</item>//竣工日期
+        <item>ORG_PROPERTY</item>//管理方
+        <item>OWNERNAME</item>//产权方
+        <item>ENGNAMEFromWY</item>//项目名称
+        <item>STRUCTURE_ID</item>//房屋结构 下拉
+        <item>STREET_ID</item>//街道id
+    </array>
+
+    <!--m.BUILD_NO = newProID.ToString();-->
+    <!--m.BUILD_NAME = binfo.BUILD_NAME;-->
+    <!--m.BUILD_SITE = binfo.BUILD_SITE;-->
+    <!--m.HOUSETOTALAREA = binfo.HOUSETOTALAREA;-->
+    <!--m.ENDBUILDDATE = binfo.ENDBUILDDATE;/字符串-->
+    <!--m.ORG_PROPERTY = binfo.ORG_PROPERTY;//管理方-->
+    <!--m.OWNERNAME = binfo.OWNERNAME;-->
+    <!--m.ENGNAMEFromWY = binfo.ENGNAMEFromWY;-->
+    <!--m.STRUCTURE_ID = binfo.STRUCTURE_ID;//下拉列表ID-->
+    <!--m.STREET_ID = binfo.STREET_ID;-->
+
+    <array name="addhouseinfoname">
+        <item>房屋名称</item>
+        <item>坐落地址</item>
+        <item>建筑面积</item>
+        <item>竣工日期</item>
+        <item>管理方</item>
+        <item>产权方</item>
+        <item>项目名称</item>
+        <item>房屋结构</item>
+        <item>街镇</item>
+    </array>
+
+    <array name="structrueid">
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+    </array>
+
+    <array name="structruename">
+        <item>钢结构</item>
+        <item>钢、钢筋混凝土结构</item>
+        <item>钢筋混凝土结构</item>
+        <item>混合结构</item>
+        <item>砖木结构</item>
+        <item>其他结构</item>
+    </array>
+
+
+
+
+    <string name="save">保存</string>
+    <string name="wgmx">违规明细</string>
+    <string name="checkrecord">检查记录</string>
+
+    <string name="jcyxx">检查员记录</string>
+
+    <string name="print_download_title">打印工具下载</string>
+    <string name="print_download">打印工具未找到，立即下载吗</string>
+    <string name="print_downloadbtn">下载</string>
+    <string name="print_laterbtn">取消</string>
+    <string name="print_downloading">正在下载</string>
+
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="no_net">无网络访问，请检查网络</string>
+
+
+    <string-array name="housemanage">
+        <item>全部</item>
+        <item>第一房管所</item>
+        <item>第二房管所</item>
+        <item>第三房管所</item>
+        <item>第四房管所</item>
+        <item>第五房管所</item>
+        <item>第六房管所</item>
+        <item>第七房管所</item>
+    </string-array>
+
+    <string-array name="branch">
+        <item>全部</item>
+        <item>局领导</item>
+        <item>中介租赁办公室</item>
+        <item>物业管理科</item>
+        <item>房屋安全管理科</item>
+        <item>信息办</item>
+        <item>房屋市场管理科</item>
+        <item>房屋登记管理科</item>
+        <item>行政执法大队</item>
+        <item>住保事务中心</item>
+        <item>行政执法科</item>
+        <item>住房保障科</item>
+        <item>房屋改革管理科</item>
+        <item>办公室</item>
+        <item>财务科</item>
+        <item>房屋交易中心</item>
+        <item>档案信息中心</item>
+        <item>第一房管所</item>
+        <item>第二房管所</item>
+        <item>第三房管所</item>
+        <item>第四房管所</item>
+        <item>第五房管所</item>
+        <item>第六房管所</item>
+        <item>第七房管所</item>
+    </string-array>
+
+    <string-array name="bType">
+        <item>全部</item>
+        <item>经纪机构</item>
+        <item>物业管理</item>
+        <item>房屋安全</item>
+        <item>普通地下室</item>
+    </string-array>
+
+    <string-array name="source">
+        <item>全部</item>
+        <item>日常巡查</item>
+        <item>专项检查</item>
+        <item>综合执法检查</item>
+        <item>检查任务</item>
+        <item>信访</item>
+        <item>咨询投诉平台</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="inspectType">
+        <item>全部</item>
+        <item>日常巡查</item>
+        <item>专项检查</item>
+        <item>综合执法检查</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="staticType">
+        <item>业务类别</item>
+        <item>任务来源</item>
+        <item>检查人</item>
+        <item>检查对象</item>
+        <item>检查部门</item>
+        <!--<item>区域</item>-->
+    </string-array>
+
+    <!--移动端检查部门-->
+    <!--var branchArr=[-->
+    <!--{id:'1',text:'行政执法大队'},-->
+    <!--{id:'2',text:'第一房管所'},-->
+    <!--{id:'3',text:'第二房管所'},-->
+    <!--{id:'4',text:'第三房管所'},-->
+    <!--{id:'5',text:'第四房管所'},-->
+    <!--{id:'6',text:'第五房管所'},-->
+    <!--{id:'7',text:'第六房管所'},-->
+    <!--{id:'8',text:'第七房管所'},-->
+    <!--{id:'9',text:'行政执法科'},-->
+    <!--{id:'10',text:'物业管理科'},-->
+    <!--{id:'11',text:'房屋安全管理科'},-->
+    <!--{id:'12',text:'住房保障科'},-->
+    <!--{id:'13',text:'中介租赁办公室'},-->
+    <!--{id:'14',text:'局领导'},-->
+    <!--{id:'15',text:'地空办'}-->
+    <!--];-->
+    <string-array name="branchArray">
+        <item>总计</item>
+        <item>局领导</item>
+        <item>普通地下空间监督管理办公室</item>
+        <item>中介租赁办公室</item>
+        <item>住房保障科</item>
+        <item>房屋安全管理科</item>
+        <item>物业管理科</item>
+        <item>行政执法科</item>
+        <item>第七房管所</item>
+        <item>第六房管所</item>
+        <item>第五房管所</item>
+        <item>第四房管所</item>
+        <item>第三房管所</item>
+        <item>第二房管所</item>
+        <item>第一房管所</item>
+        <item>行政执法大队</item>
+    </string-array>
+    <string-array name="protype">
+        <item>住宅</item>
+        <item>商业</item>
+        <item>办公</item>
+        <item>特种</item>
+        <item>综合</item>
+        <item>工业</item>
+        <item>其他</item>
+    </string-array>
+
+    <string name="street">街道:</string>
+
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+    <string name="back">返回</string>
+
+
+    <string name="dialogmessage">
+        该弹窗只会在该版本第一次进入应用时出现。\n
+        下面为一些该版本的优化及说明：\n
+        1、为了提高大家对应用的体验度,请大家在结束之后关闭应用。\n
+        2、打印功能可以点击记录里面某一个条记录后进入检查详情界面，点击检查详情最下面的打印预览按钮,然后点击右上角的打印按钮。\n
+        业务类型为“其他”时，不能进行打印。\n
+        3、自己添加的普通地下室和房屋对象,长按列表中的对象名，可以进行删除。\n
+        4、检查人签名为非必签项。\n
+        5、录制的视频,也可以长按进行删除。\n
+        6、检查记录里面的视频为网络视频,如果您需要观看,可能需要时间缓冲。\n
+        7、如果没有搜索到物业项目可以选择列表中的“其他”,然后继续往下操作，在最后界面的表头中进行物业项目信息的填写。\n
+        如果有什么问题可以发送邮箱491277573@qq.com反馈或者电话15110189058小谢
+    </string>
+
+    <string name="personsignshow">检查员签名最多可以签5张,长按删除。</string>
+    <string name="objectsignshow">检查对象签名最多可以签5张,长按删除。</string>
+
+
+
+
+
+
+</resources>

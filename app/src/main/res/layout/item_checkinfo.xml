@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:gravity="center_vertical">
+<TextView
+    android:id="@+id/text1_itemcheckinfo"
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="序号"
+    />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="#DEDEDE"/>
+    <TextView
+        android:id="@+id/text2_itemcheckinfo"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="检查人"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="#DEDEDE"/>
+    <TextView
+        android:id="@+id/text3_itemcheckinfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="检查时间"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="#DEDEDE"/>
+    <TextView
+        android:id="@+id/text4_itemcheckinfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="业务类型"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="#DEDEDE"/>
+    <TextView
+        android:id="@+id/text5_itemcheckinfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="是否有违法违规"/>
+</LinearLayout>

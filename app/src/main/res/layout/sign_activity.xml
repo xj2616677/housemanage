@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/rg_sign"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--android:layout_marginRight="50dp"-->
+        <!-->-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb_sign_checkperson"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="检查人签字"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@null"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:background="@drawable/signradiobutton_selector"-->
+
+            <!--/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb_sign_checkedobject"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="受检单位签字"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="10dp"-->
+            <!--android:button="@null"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:background="@drawable/signradiobutton_selector"-->
+            <!--/>-->
+
+    <!--</RadioGroup>-->
+
+    <RelativeLayout
+        android:id="@+id/rel_sign_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+        <RelativeLayout
+            android:id="@+id/rel_sign_checkperson"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/backgray" >
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rel_sign_checkedobject"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/backgray" >
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/lin_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/rel_sign_all"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/bt_clear"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="清除签名"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_color_selector"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/bt_sign_sure"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="确定"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_color_selector"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

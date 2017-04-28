@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_insertitem_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/edit_insertitem_value"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittextinsert"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_insertitem_date"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_shape"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <Spinner
+        android:visibility="gone"
+        android:id="@+id/spinner_insertitem_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        ></Spinner>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/lin_insertitem_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        ></LinearLayout>
+
+</LinearLayout>

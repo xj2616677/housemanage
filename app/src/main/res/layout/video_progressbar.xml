@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:saund="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/text_videodialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传视频..."
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/titleback"
+        />
+
+    <widget.SaundProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regularprogressbar"
+        style="@style/Widget.ProgressBar.RegularProgressBar"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        saund:offset="3dip"
+        saund:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>

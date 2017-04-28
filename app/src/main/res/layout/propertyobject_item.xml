@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lin_button"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/text_proobject_general"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_color_selector"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/generalbasement"
+            android:textColor="@color/blue"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/text_proobject_house"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_color_selector"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/housesafeuse"
+            android:textColor="@color/blue"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_toLeftOf="@+id/lin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/cb_proobject_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/text_proobject_item"
+            android:layout_toRightOf="@+id/cb_proobject_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

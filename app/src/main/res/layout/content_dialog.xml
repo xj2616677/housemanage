@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/month_view_bar_weekday">
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_content"
+    android:text="@string/censor"
+    android:textColor="@color/input_lable"
+    android:gravity="center"
+    android:textSize="20sp"/>
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:id="@+id/editText1_content"
+        android:layout_weight="1" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/starttime"
+            android:textColor="@color/input_lable"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="@string/hint2"
+            android:id="@+id/editText2_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/endtime"
+            android:textColor="@color/input_lable"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="@string/hint3"
+            android:id="@+id/editText3_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/button1_content"
+        android:text="@string/cancel"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/button2_content"
+        android:text="@string/sure"
+        android:textSize="18sp"/>
+</LinearLayout>
+</LinearLayout>

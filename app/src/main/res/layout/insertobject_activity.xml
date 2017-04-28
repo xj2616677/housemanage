@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgray"
+    >
+
+    <LinearLayout
+        android:id="@+id/lin_insertobject_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/text_insertobject_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:text="机构类别(必填项)"
+            />
+
+
+        <Spinner
+            android:id="@+id/spinner_insertobject_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            ></Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lin_insertobject_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/text_insertobject_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:text="总支名称"
+            />
+
+
+        <TextView
+            android:id="@+id/text_insertobject_headvalue"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_shape"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <ListView
+        android:layout_marginTop="12dp"
+        android:id="@+id/list_insertobject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="12dp"
+        android:divider="@color/backgray"
+        android:background="@color/backgray"
+        ></ListView>
+
+</LinearLayout>

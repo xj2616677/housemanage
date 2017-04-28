@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/text_listexpandchild_wujiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:text="☆"
+        android:textColor="@color/red"
+        />
+
+    <TextView
+        android:layout_toRightOf="@+id/text_listexpandchild_wujiao"
+        android:id="@+id/text_listexpandchild_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="20sp"
+        />
+    <HorizontalScrollView
+        android:layout_below="@+id/text_listexpandchild_name"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/rg_listexpandchild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            ></LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

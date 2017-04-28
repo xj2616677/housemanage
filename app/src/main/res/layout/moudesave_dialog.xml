@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="模板名称"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/edit_moudesave_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="请输入模板名称"
+            android:background="@drawable/layout_shape"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="模板描述"
+            android:padding="10dp"
+            />
+        <EditText
+            android:layout_marginRight="20dp"
+            android:id="@+id/edit_moudesave_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="请输入模板描述"
+            android:background="@drawable/layout_shape"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="是否共享"
+            android:padding="10dp"
+            />
+
+
+        <RadioGroup
+            android:id="@+id/rg_moudesave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/rb_moudesave_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是"
+                />
+            <RadioButton
+                android:id="@+id/rb_moudesave_no"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="否"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/text_moudesave_line"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/text_moudesave_sure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/text_color_selector"
+            android:gravity="center"
+            android:text="@string/sure"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="80dp"
+            android:background="@color/black"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            />
+
+        <TextView
+            android:id="@+id/text_moudesave_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/text_color_selector"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/cancel"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        />
+
+</LinearLayout>

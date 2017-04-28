@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lin_photo"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="现场照片:"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="300dp"
+            android:numColumns="3"
+            android:horizontalSpacing="3dp"
+            android:verticalSpacing="5dp"
+            android:scrollbars="none"
+            android:layout_height="wrap_content"></GridView>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_below="@+id/lin_photo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:orientation="horizontal"-->
+        <!-->-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!-->-->
+            <!--<ImageView-->
+                <!--android:id="@+id/img_video"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:background="@mipmap/video"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="录制视频"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:textSize="20sp"-->
+                <!--android:padding="5dp"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+        <!--<ListView-->
+            <!--android:id="@+id/video_list"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"></ListView>-->
+    <!--</LinearLayout>-->
+
+    <include
+        android:id="@+id/include_takephote"
+        layout="@layout/input_takephoto"
+        android:visibility = "gone"
+        />
+
+
+
+</RelativeLayout>

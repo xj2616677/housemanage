@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温馨提示"
+            android:textSize="20sp"
+            android:padding="10dp"
+            />
+    <TextView
+        android:layout_below="@+id/rel_persondailog_title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/titleback"
+        />
+
+
+
+    <TextView
+        android:id="@+id/text_notifydialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="检查结束后,检查单将不可修改,确定结束检查吗？"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lin_notifydate"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:orientation="horizontal"-->
+        <!-->-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="下发日期:"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="10dp"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/text_notifydailog_date"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20sp"-->
+            <!--android:padding="5dp"-->
+            <!--android:background="@drawable/layout_shape"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/text_notifydialog_sure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/text_color_selector"
+            android:gravity="center"
+            android:text="@string/sure"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="80dp"
+            android:background="@color/black"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+
+        <TextView
+            android:id="@+id/text_notifydialog_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/text_color_selector"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/cancel"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        />
+
+</LinearLayout>
